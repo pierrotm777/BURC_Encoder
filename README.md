@@ -20,4 +20,14 @@ All these modules behind
 - [MultiSwitch_MosFet](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/MultiSwitch_MosFet)  
 - [Ms8 Pulseq](https://github.com/Ingwie/OpenAVRc_Hw/tree/V3/PulseSeq)  
 
+
+## Build BURC
+### Schematic  
+<object data="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+
 ...
