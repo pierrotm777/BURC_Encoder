@@ -36,7 +36,8 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw_Top.jpg" border="0"/></td>
   <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw_Bottom.jpg" border="0"/></td>
   </tr>
-  </table> 
+  </table>
+  
   The hall sensor command a Schottel motor type by rotation, and the slider command the motor's power.  
   This board is the **main board** system and can command **several 16 switchs** board.  
   The interface use an **I2C** bus.  
@@ -46,7 +47,7 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   <tr>
   <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/shottle_Motors.jpg" border="0"/></td>
   </tr>
-  </table> 
+  </table>
   
   * 16 Switchs board (need one protportional channel) 
   Each switch can command 1 fonction.  
