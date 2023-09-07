@@ -22,8 +22,9 @@ All these modules behind
 
 
 ## Build BURC
-### Schematic  
-![Schematic](https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw.jpg)  
+### Schematic
+![Encoder](https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw.jpg)  
+![16 Switchs](https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/MultiSwitch_Mcp23017_MiniSwitch/MultiSwitch_Mcp23017_MiniSwitch.jpg)  
 
 ### Boards  
 Two cards make up the BURC system.
@@ -40,7 +41,7 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   
   The hall sensor command a Schottel motor type by rotation, and the slider command the motor's power.  
   This board is the **main board** system and can command **several 16 switchs** board.  
-  The interface use an **I2C** bus.  
+  The interface between all the boards use an **I2C** bus.  
   
   A dashboard exemple for two motors:  
   <table border="2">
@@ -57,4 +58,6 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/MultiSwitch_Mcp23017_MiniSwitch/MultiSwitch_Mcp23017_MiniSwitch_3dBottom.jpg" border="0"/></td>
   </tr>
   </table>  
+  
+
 ...
