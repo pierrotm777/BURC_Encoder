@@ -47,7 +47,7 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   The interface between all the boards use an **I2C** bus.  
 
   The same board can be used for the left or right motor, and assume to wire only one of the two hall sensor an the 8 first switchs.  
-  The second board will command the 8 other switch and the second slider (No need another arduino Pro Mini in the second circuit board) .  
+  The second board will command the 8 other switchs and the second slider (No need another arduino Pro Mini in the second circuit board) .  
   An Attiny85 receive these orders from the first board and command the second hall sensor and the second slider.  
   A dashboard exemple for two motors:  
   <table border="2">
