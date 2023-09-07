@@ -38,7 +38,8 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   </tr>
   </table> 
   The hall sensor command a Schottel motor type by rotation, and the slider command the motor's power.  
-  A dashboard exemple for two motors:
+  
+  A dashboard exemple for two motors:  
   <table border="2">
   <tr>
   <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/shottle_Motors.jpg" border="0"/></td>
