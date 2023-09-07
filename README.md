@@ -38,4 +38,10 @@ Two cards make up the BURC system.
   </table>  
   * 16 Switchs board (need one protportional channel) 
   Each switch can command 1 fonction.  
+  <table border="2">
+  <tr>
+  <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/MultiSwitch_Mcp23017_MiniSwitch/MultiSwitch_Mcp23017_MiniSwitch_3dTop.jpg" border="0"/></td>
+  <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/MultiSwitch_Mcp23017_MiniSwitch/MultiSwitch_Mcp23017_MiniSwitch_3dBottom.jpg" border="0"/></td>
+  </tr>
+  </table>  
 ...
