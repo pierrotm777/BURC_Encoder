@@ -38,7 +38,7 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   </tr>
   </table> 
   The hall sensor command a Schottel motor type by rotation, and the slider command the motor's power.  
-  This board is the **main board** system and can command **several 16 switchs** board.
+  This board is the **main board** system and can command **several 16 switchs** board.  
   The interface use an **I2C** bus.  
   
   A dashboard exemple for two motors:  
