@@ -67,5 +67,10 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   </tr>
   </table>  
   
-
+  A main board and a 16 switchs coupled:
+  <table border="2">
+  <tr>
+  <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/Encoder%2616Switchs.jpg" border="0"/></td>
+  </tr>
+  </table>  
 ...
