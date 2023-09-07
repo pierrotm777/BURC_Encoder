@@ -36,6 +36,6 @@ Two cards make up the BURC system.
   <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw_Bottom.jpg" border="0"/></td>
   </tr>
   </table>  
-  * 16 Switchs board (need one protportional channel)  
+  * 16 Switchs board (need one protportional channel) 
   Each switch can command 1 fonction.  
 ...
