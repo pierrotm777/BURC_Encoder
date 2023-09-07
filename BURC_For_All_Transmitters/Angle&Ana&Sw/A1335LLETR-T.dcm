@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A1335LLETR-T
+D Hall-Effect Angle Sensor IC W/Integrated Diagnostics
+K
+F https://www.allegromicro.com/~/media/Files/Datasheets/A1335-Datasheet.ashx
+$ENDCMP
+#
+#End Doc Library

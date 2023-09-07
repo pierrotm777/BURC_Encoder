@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Mybli_16Switch")(type "KiCad")(uri "${KIPRJMOD}/Mybli_16Switch.kicad_sym")(options "")(descr ""))
+)

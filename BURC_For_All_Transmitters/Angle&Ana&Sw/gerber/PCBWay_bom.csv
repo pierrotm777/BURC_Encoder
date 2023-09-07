@@ -1,0 +1,17 @@
+﻿designator,quantity,value,pack,mpn,mount_type
+C1,1,10uF/16v,C_Radial_D8.0mm_H7.0mm_P3.50mm,,tht
+"C2, C3",2,100nF,C_Rect_L7.0mm_W3.5mm_P5.00mm,,tht
+D1,1,RED,LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm,,tht
+J1,1,Conn_01x04,PinHeader_1x04_P2.54mm_Horizontal,,tht
+"J10, J9",2,Conn_ButtonsLeft,JST_PH_B9B-PH-K_1x09_P2.00mm_Vertical,,tht
+"J2, J4",2,I2C_INPUT,PinHeader_1x04_P2.54mm_Horizontal,,tht
+"J3, J5",2,I2C_INPUT,PinSocket_1x04_P2.54mm_Horizontal,,tht
+J6,1,Conn_ToButtonsRight,PinSocket_2x04_P2.54mm_Horizontal,,tht
+J7,1,Conn_FromButtonsLeft,PinHeader_2x04_P2.54mm_Horizontal,,tht
+R1,1,680,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,,tht
+RV1,1,10K,PTA2043-2015CPB103,,tht
+SW1,1,SW_Push,SW_PUSH_ANGLED,,tht
+SW2,1,SW_POWER,PinHeader_1x03_P2.54mm_Vertical,,tht
+U1,1,ATtiny85,DIP-8_W7.62mm,,tht
+"U2, U4",2,p3015_v1_cw360,p3015_v1_cw360,,tht
+U3,1,Arduino_Pro_Mini,Arduino_Pro_Mini_Socket_NoSPH_BURC,,tht
