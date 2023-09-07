@@ -54,6 +54,7 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   
   * 16 Switchs board (need one protportional channel) 
   Each switch can command 1 fonction.  
+  This board read 16 switchs by 1 MCP23017 or 2 PCF8574 or 1 PCF8575.
   <table border="2">
   <tr>
   <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/MultiSwitch_Mcp23017_MiniSwitch/MultiSwitch_Mcp23017_MiniSwitch_3dTop.jpg" border="0"/></td>
