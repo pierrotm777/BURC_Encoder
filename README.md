@@ -27,6 +27,7 @@ All these modules behind
 
 ### Boards  
 Two cards make up the BURC system.
+The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SBUS** input.
 - The BURC Encoder:
   * Encoder board (include 8 switchs, 1 360° hall sensor and 1 slider, need one proportional channel) 
   Can command up to 128 fonctions (8x16) by exemple 8 Ms16 modules, use 1 channel for each 16 switchs module.  
