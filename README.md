@@ -46,7 +46,7 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   This board is the **main board** system and can command **several 16 switchs** board.  
   The interface between all the boards use an **I2C** bus.  
 
-  The same board can be used for the left or right motor, and assume to wire only one of the two hall senor.    
+  The same board can be used for the left or right motor, and assume to wire only one of the two hall sensor.    
   A dashboard exemple for two motors:  
   <table border="2">
   <tr>
