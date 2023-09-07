@@ -23,6 +23,6 @@ All these modules behind
 
 ## Build BURC
 ### Schematic  
-xfun::embed_file("https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw.pdf")
+xfun::embed_file('https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw.pdf')
 
 ...
