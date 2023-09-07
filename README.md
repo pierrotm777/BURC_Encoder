@@ -54,6 +54,7 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   
   * 16 Switchs board (need one protportional channel) 
   Each switch can command 1 fonction.  
+  The type of command depend of the [Ms8](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MutltiSwitch_Sw8_V2/MS8-Xany-V2_Manuel_Utilisateur.pdf)/[Ms16](https://github.com/Ingwie/OpenAVRc_Hw/blob/V3/MultiSwitch_Sw16-ProMicro/MS16-Xany_Manuel_Utilisateur.pdf) possibilities.    
   This board read 16 switchs by 1 MCP23017 or 2 PCF8574 or 1 PCF8575.
   <table border="2">
   <tr>
