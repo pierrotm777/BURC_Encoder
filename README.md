@@ -23,6 +23,13 @@ All these modules behind
 
 ## Build BURC
 ### Schematic  
-![Schematic](https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw.jpg)
+![Schematic](https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw.jpg)  
 
+### Boards  
+Two cards make up the BURC system.
+- The BURC Encoder:
+  * Encoder board (include 8 switchs, 1 360° hall sensor and 1 slider, need one proportional channel) 
+  Can command up to 128 fonctions (8x16) by exemple 8 Ms16 modules, use 1 channel for each 16 switchs module.  
+  * 16 Switchs board (need one protportional channel)
+  Each switch can command 1 fonction.
 ...
