@@ -34,6 +34,7 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
 - The BURC Encoder:
   * Encoder board (include 8 switchs, 1 360° hall sensor and 1 slider, need one proportional channel) 
   Can command up to 128 fonctions (8x16) by exemple 8 Ms16 modules, use 1 channel for each 16 switchs module.  
+  The same board can be used for the left or right motor, and assume to wire only one of the two hall senor.  
   <table border="2">
   <tr>
   <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw_Top.jpg" border="0"/></td>
