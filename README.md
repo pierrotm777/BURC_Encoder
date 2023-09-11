@@ -82,7 +82,18 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   </table>  
   
 ### Firmware upload
+- Windows:  
 The best method is to use [Xloader](https://github.com/pierrotm777/BURC_Encoder/blob/main/PROG/Windows/XLoader.zip).  
+The last firmware is the version [0.6](https://github.com/pierrotm777/BURC_Encoder/blob/main/PROG/Windows/BURC_CODER_V0_6.hex).  
 ![Xloader](https://github.com/pierrotm777/BURC_Encoder/blob/main/PROG/Windows/Xloader.jpg)  
+
+- Other Os:
+Use you Arduino IDE for find witch command to use.
+In my case, the command is :
+C:\Users\pierrot\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17/bin/avrdude -CC:\Users\pierrot\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17/etc/avrdude.conf -v -patmega328p -carduino -PCOM5 -b57600 -D -Uflash:w:C:\Users\pierrot\AppData\Local\Temp\arduino_build_879913/Blink.ino.hex:i  
+  * replace the hex file path C:\Users\pierrot\AppData\Local\Temp\arduino_build_879913/Blink.ino.hex by your firmware path.  
+  * select the good device port.  
+  * create a script file with these two modofications.  
+
 
 ...
