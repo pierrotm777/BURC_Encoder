@@ -22,7 +22,7 @@ All these modules behind
 
 
 ## Build BURC
-### Schematic
+### Schematic  
 Encoder:  
 ![Encoder](https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw.jpg)  
 16 switchs:  
@@ -80,4 +80,7 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/Encoder%2648Switchs.jpg" border="0"/></td>
   </tr>
   </table>  
+  
+### Firmware upload
+The best method is to use [Xloader v1.339](https://github.com/xinabox/xLoader/releases).
 ...
