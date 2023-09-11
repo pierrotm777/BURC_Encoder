@@ -82,7 +82,7 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   </table>  
   
 ### Firmware upload
-The best method is to use [Xloader](https://github.com/pierrotm777/BURC_Encoder/blob/main/PROG/Windows/XLoader.zip).
+The best method is to use [Xloader](https://github.com/pierrotm777/BURC_Encoder/blob/main/PROG/Windows/XLoader.zip).  
 ![Xloader](https://github.com/pierrotm777/BURC_Encoder/blob/main/PROG/Windows/Xloader.jpg]  
 
 ...
