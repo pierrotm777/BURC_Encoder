@@ -96,7 +96,7 @@ C:\Users\pierrot\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-ar
 ```
   * replace the hex file path C:\Users\pierrot\AppData\Local\Temp\arduino_build_879913/Blink.ino.hex by your firmware path.  
   * select the good device port.  
-  * create a script file with these two modofications.  
+  * create a script file with these two modifications.  
 
 
 ...
