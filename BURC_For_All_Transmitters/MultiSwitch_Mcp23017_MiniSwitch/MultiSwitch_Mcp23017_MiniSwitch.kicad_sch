@@ -6,7 +6,7 @@
 
   (title_block
     (title "Board for 16 Switch")
-    (date "2023-09-02")
+    (date "2023-09-17")
     (rev "1.0")
     (company "OpenAVRc")
   )
@@ -1910,6 +1910,19 @@
   (wire (pts (xy 62.865 63.5) (xy 73.025 63.5))
     (stroke (width 0) (type default))
     (uuid ffe04d5b-9c14-4e97-8326-81f1c7f44808)
+  )
+
+  (text "pcf8575" (at 178.435 47.625 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid 896ce1df-5f9c-4f2c-af3f-a5d22a2ae1a6)
+  )
+  (text "pcf8574" (at 121.92 46.99 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid a4b9ebf6-5c94-481b-a481-7e88916e23a8)
+  )
+  (text "mcp23017" (at 52.07 46.355 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid b2307a56-1e4f-4788-9166-bb85ea5368c8)
   )
 
   (label "C2" (at 140.97 60.325 180) (fields_autoplaced)
