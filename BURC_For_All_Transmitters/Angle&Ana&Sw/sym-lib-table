@@ -1,6 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Capteur_Hall_I2C_Mini-rescue")(type "KiCad")(uri "${KIPRJMOD}/Capteur_Hall_I2C_Mini-rescue.kicad_sym")(options "")(descr ""))
-  (lib (name "Pro_Mini")(type "KiCad")(uri "${KIPRJMOD}/ARDUINO_PRO_MINI.kicad_sym")(options "")(descr ""))
-  (lib (name "Jack_Audio")(type "KiCad")(uri "${KIPRJMOD}/SJ-3504.kicad_sym")(options "")(descr ""))
-)
