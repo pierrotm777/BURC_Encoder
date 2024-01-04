@@ -38,8 +38,8 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
 
   <table border="2">
   <tr>
-  <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw_Top.jpg" border="0"/></td>
-  <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/Angle%26Ana%26Sw_Bottom.jpg" border="0"/></td>
+  <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw_Top.jpg" border="0"/></td>
+  <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw_Bottom.jpg" border="0"/></td>
   </tr>
   </table>
   
@@ -53,7 +53,7 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   A dashboard exemple for two motors:  
   <table border="2">
   <tr>
-  <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw/shottle_Motors.jpg" border="0"/></td>
+  <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/shottle_Motors.jpg" border="0"/></td>
   </tr>
   </table>
   
@@ -63,8 +63,8 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   This board read 16 switchs by 1 MCP23017 or 2 PCF8574 or 1 PCF8575.
   <table border="2">
   <tr>
-  <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/MultiSwitch_Mcp23017_MiniSwitch/MultiSwitch_Mcp23017_MiniSwitch_3dTop.jpg" border="0"/></td>
-  <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/MultiSwitch_Mcp23017_MiniSwitch/MultiSwitch_Mcp23017_MiniSwitch_3dBottom.jpg" border="0"/></td>
+  <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/MultiSwitch_Mcp23017_MiniSwitch_3dTop.jpg" border="0"/></td>
+  <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/MultiSwitch_Mcp23017_MiniSwitch_3dBottom.jpg" border="0"/></td>
   </tr>
   </table>  
   
