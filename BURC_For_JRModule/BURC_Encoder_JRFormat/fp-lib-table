@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "BURC_Encoder_JRFormat_FootPrints")(type "KiCad")(uri "${KIPRJMOD}/BURC_Encoder_JRFormat.pretty")(options "")(descr ""))
-)
