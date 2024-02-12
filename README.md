@@ -1,9 +1,9 @@
 # BURC_Encoder
  Universal RC Box System.  
- All this sytem use the RCUL protocol by Rc-Navy.
- ![RCUL](https://github.com/pierrotm777/BURC_Encoder/blob/main/RCUL.jpg)
  
- 
+ The BURC modules use the RCUL protocol by Rc-Navy.
+ ![RCUL](https://github.com/pierrotm777/BURC_Encoder/blob/main/RCUL.jpg)  
+
 ## Rc-Navy
 The BURC system is build by Philippe Loussouarn ([Rc-Navy](http://p.loussouarn.free.fr/index.html)). 
 
