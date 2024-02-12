@@ -95,4 +95,5 @@ In my case, the command is :
   * replace the hex file path C:\Users\pierrot\AppData\Local\Temp\arduino_build_879913/Blink.ino.hex by your firmware path.  
   * create a script file with this change.  
 
-...
+### Exemple BURC build
+- You will find [here](https://cults3d.com/fr/mod%C3%A8le-3d/jeu/burc-pad) an exemple of 3d files witch accept all the BURC's boards.  
