@@ -96,4 +96,4 @@ In my case, the command is :
   * create a script file with this change.  
 
 ### Exemple BURC build
-- You will find [here](https://cults3d.com/fr/mod%C3%A8le-3d/jeu/burc-pad) an exemple of 3d files witch accept all the BURC's boards.  
+- You will find [here](https://cults3d.com/fr/mod%C3%A8le-3d/jeu/burc-pad) an exemple of 3d files by **croky_b** witch accept all the BURC's boards.  
