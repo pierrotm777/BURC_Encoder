@@ -100,3 +100,41 @@ In my case, the command is :
 
 ### Exemple BURC build
 - You will find [here](https://cults3d.com/fr/mod%C3%A8le-3d/jeu/burc-pad) an exemple of 3d files by **croky_b** witch accept all the BURC's boards.  
+
+## Configure the BURC Encoder
+- Connect a FTDI interface to the Arduino Pro Mini and your PC.  
+- Use a terminal for send your commands.  
+- Set your terminal with 115200 bauds, 8 bits, no parity, 1 bit stop and CR or CRLF (see LIGNE.TERM).  
+- Type ENTER key for see the module's version. 
+Exemple of configuration:
+```
+CONF?
+LANG=FR
+LIGNE.TERM=CRLF
+ECOLAGE.MODE=CPPM_OUT
+CPPM.MODU=NEG
+CPPM.ENTETE=300
+CPPM.VOIE.NB=8
+CPPM.PERIODE=22500
+RCUL.REPET=2
+RCUL1.VOIE=5
+RCUL1.MESSAGE=ANGLE+ANA@0x0C
+RCUL1.TEST=OFF
+RCUL2.VOIE=6
+RCUL2.MESSAGE=C9-C16@0x24
+RCUL2.TEST=OFF
+RCUL3.VOIE=7
+RCUL3.MESSAGE=C1-C8@0x24+ANA1
+RCUL3.TEST=OFF
+RCUL4.VOIE=8
+RCUL4.MESSAGE=RC.ANA_INV2
+RCUL4.TEST=OFF
+RCUL5.VOIE=OFF
+RCUL5.MESSAGE=C1-C8@0x00
+RCUL5.TEST=OFF
+RCUL6.VOIE=OFF
+RCUL6.MESSAGE=C1-C8@0x00
+RCUL6.TEST=OFF
+RX.MODE=RCUL3@PWM
+RX.DBG=0
+```
