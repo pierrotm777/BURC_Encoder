@@ -145,6 +145,7 @@ and the last 8 contacts of the 16-input I2C extender (at address 0x24) used by R
 It is possible to directly map an analog value (ANA1 to AN6), inverted or not, to a channel.  
 To do this, you must use the command **RCULx.MESSAGE=RC.ANA[_INV]y** with x=RCUL instance number and y is the ANA channel number (from 1 to 6):  
 Example: **RCUL6.MESSAGE=RC.ANA_INV1**  
+A simple solution for build a little 6 channels hanset WITH BURC features.  
 
 
 Exemple of configuration:
