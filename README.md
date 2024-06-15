@@ -147,6 +147,9 @@ To do this, you must use the command **RCULx.MESSAGE=RC.ANA[_INV]y** with x=RCUL
 Example: **RCUL6.MESSAGE=RC.ANA_INV1**  
 A simple solution for build a little 6 channels hanset WITH BURC features.  
 
+Debug method:  
+To test an RCUL channel in CPPM, we loop pin8 back to pin9 and we do an **RX.MODE=RCUL6@CPPM6** and after an **RX.DBG=1** command.  
+
 
 Exemple of configuration:
 ```
