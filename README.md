@@ -183,3 +183,15 @@ RCUL6.TEST=OFF
 RX.MODE=RCUL3@PWM
 RX.DBG=0
 ```
+- LANG=FR                       define language (FR or UK)  
+- LIGNE.TERM=CRLF               define terminal return (CR or CRLF)  
+- ECOLAGE.MODE=CPPM_OUT         the encoder use the input training in CPPM mode (SBUS_OUT is also possible)
+- CPPM.MODU=NEG                 CPPM signal is build with negative pulses (POS is possible)  
+- CPPM.ENTETE=300               300 first width CPPM pulse  
+- CPPM.VOIE.NB=8                CPPM build 8 channels  
+- CPPM.PERIODE=22500            CPPM periode in mS  
+- RCUL.REPET=2                  the encoder repeats the same thing twice for a better transmission result  
+- RCUL1.MESSAGE=ANGLE+ANA@0x0C  for command an azimutal motor (direction and motor)  
+- RCUL2.MESSAGE=C9-C16@0x24     8 buttons on MCP23017 (address 0x24)  
+- RCUL3.MESSAGE=C1-C8@0x24+ANA1 8 buttons on MCP23017 and analog button (module Sound&Smoke for 8 sounds et volume)
+- RCUL4.MESSAGE=RC.ANA_INV2     1 analogique channel inverted 
