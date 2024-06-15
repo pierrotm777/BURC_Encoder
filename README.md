@@ -105,7 +105,44 @@ In my case, the command is :
 - Connect a FTDI interface to the Arduino Pro Mini and your PC.  
 - Use a terminal for send your commands.  
 - Set your terminal with 115200 bauds, 8 bits, no parity, 1 bit stop and CR or CRLF (see LIGNE.TERM).  
-- Type ENTER key for see the module's version. 
+- Type ENTER key for see the module's version.
+
+## Settings usables
+The list of messages that can be transported in each RCUL instance is:  
+- SW1-SW8:   the state of 8 contacts of the 8 contacts of an 8 I/O I/O extender or a 16 I/O extender or the first 8 contacts of the 16 native contacts of the Arduino
+- SW9-SW16:  the state of the last 8 contacts of a 16 I/O extender or the last 8 contacts of the 16 native contacts of the Arduino
+- SW1-SW16:  the state of 16 contacts of a 16 I/O extender or of the 16 native contacts of the Arduino
+- ANGLE:     the value of the angle of a 360° angle sensor
+- ANGLE+ANA: the value of the angle of a 360° angular sensor + an analog value  
+
+On the encoder there are 16 native contacts from C1 to C16.  
+Among C8 to C16, 6 are also analog inputs which correspond to pins C11 to C16.  
+So C11 to C16 are also ANA1 to ANA6 (these are my names, not the names of the "arduino" pins):  
+We therefore have 6 analog channels at our disposal (just as we wire a pot there instead of an switch or push button).  
+
+We can make extended RCUL messages of the type:  
+**RCUL1.MESSAGE=C1-C8@0x00+ANA1** (which will transmit 8 contact states + an 8-bit ana value:  
+You obviously have to wire a knob to pin C11).  
+**RCUL2.MESSAGE=C9-C16@0x24+ANA2** (which will transmit 16 contact states + an 8-bit ana value:  
+You obviously have to wire a knob to pin C12).  
+
+So, with **RCUL1.MESSAGE=C1-C8@0x00+ANA1** or **RCUL2.MESSAGE=C9-C16@0x24+ANA2**,  
+for an MS8 (V1 or V2), you can control the 8 outputs + the additional proportional output.  
+You can also order the Sound&Smoke module which uses the 8 contacts to launch 8  
+different sounds and the ana value to adjust the volume of the DF Player from the transmitter.  
+
+We can also do:
+**RCUL3.MESSAGE=C1-C16@0x25+ANA3** (which will transmit 16 contact states + an 8-bit analog value:  
+You obviously have to wire a knob to pin C12)
+So, with **RCUL3.MESSAGE=C1-C16@0x25+ANA3** for an MS16, you can control the 16 outputs + the additional proportional output.  
+
+So, if we want to use the first 8 contacts C1 to C8 of your 16-input I2C extender at address 0x24,  
+we just have to create another RCUL instance in which we refer to the first 8 contacts: **RCUL5.MESSAGE=C1-C8@0x24**
+And with RCUL5 we can, for example, order another MS8.
+So we will have the first 8 contacts of the I2C extender with 16 inputs (at address 0x24) used by RCUL5 to control an MS8 (for example) 
+and the last 8 contacts of the 16-input I2C extender (at address 0x24) used by RCUL2 (which also uses ANA2) to control a Sound&Smoke.
+
+
 Exemple of configuration:
 ```
 CONF?
@@ -123,10 +160,10 @@ RCUL1.TEST=OFF
 RCUL2.VOIE=6
 RCUL2.MESSAGE=C9-C16@0x24
 RCUL2.TEST=OFF
-RCUL3.VOIE=7
+RCUL3.VOIE=8
 RCUL3.MESSAGE=C1-C8@0x24+ANA1
 RCUL3.TEST=OFF
-RCUL4.VOIE=8
+RCUL4.VOIE=7
 RCUL4.MESSAGE=RC.ANA_INV2
 RCUL4.TEST=OFF
 RCUL5.VOIE=OFF
