@@ -183,7 +183,7 @@ RCUL6.TEST=OFF
 RX.MODE=RCUL3@PWM
 RX.DBG=0
 ```
-- LANG=FR                       <space><space><space><space><space><space><space><space><space><space><space><space>define language (FR or UK)  
+- LANG=FR						define language (FR or UK)  
 - LIGNE.TERM=CRLF               define terminal return (CR or CRLF)  
 - ECOLAGE.MODE=CPPM_OUT         the encoder use the input training in CPPM mode (SBUS_OUT is also possible)
 - CPPM.MODU=NEG                 CPPM signal is build with negative pulses (POS is possible)  
