@@ -144,11 +144,11 @@ and the last 8 contacts of the 16-input I2C extender (at address 0x24) used by R
 
 It is possible to directly map an analog value (ANA1 to AN6), inverted or not, to a channel.  
 To do this, you must use the command **RCULx.MESSAGE=RC.ANA[_INV]y** with x=RCUL instance number and y is the ANA channel number (from 1 to 6):  
-Example: **RCUL6.MESSAGE=RC.ANA_INV1**  
+Example: **RCUL4.MESSAGE=RC.ANA_INV1**  
 A simple solution for build a little 6 channels hanset WITH BURC features.  
 
 Debug method:  
-To test an RCUL channel in CPPM, we loop pin8 back to pin9 and we do an **RX.MODE=RCUL6@CPPM6** and after an **RX.DBG=1** command.  
+To test an RCUL channel in CPPM, we loop pin8 back to pin9 and we do an **RX.MODE=RCUL4@CPPM4** and after an **RX.DBG=1** command.  
 
 
 Exemple of configuration:
@@ -172,7 +172,7 @@ RCUL3.VOIE=8
 RCUL3.MESSAGE=C1-C8@0x24+ANA1
 RCUL3.TEST=OFF
 RCUL4.VOIE=7
-RCUL4.MESSAGE=RC.ANA_INV2
+RCUL4.MESSAGE=RC.ANA_INV1
 RCUL4.TEST=OFF
 RCUL5.VOIE=OFF
 RCUL5.MESSAGE=C1-C8@0x00
@@ -180,7 +180,7 @@ RCUL5.TEST=OFF
 RCUL6.VOIE=OFF
 RCUL6.MESSAGE=C1-C8@0x00
 RCUL6.TEST=OFF
-RX.MODE=RCUL3@PWM
+RX.MODE=RCUL6@CPPM6
 RX.DBG=0
 ```
 
