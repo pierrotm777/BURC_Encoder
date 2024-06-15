@@ -142,6 +142,10 @@ And with RCUL5 we can, for example, order another MS8.
 So we will have the first 8 contacts of the I2C extender with 16 inputs (at address 0x24) used by RCUL5 to control an MS8 (for example) 
 and the last 8 contacts of the 16-input I2C extender (at address 0x24) used by RCUL2 (which also uses ANA2) to control a Sound&Smoke.
 
+It is possible to directly map an analog value (ANA1 to AN6), inverted or not, to a channel.  
+To do this, you must use the command **RCULx.MESSAGE=RC.ANA[_INV]y** with x=RCUL instance number and y is the ANA channel number (from 1 to 6):  
+Example: **RCUL6.MESSAGE=RC.ANA_INV1**  
+
 
 Exemple of configuration:
 ```
