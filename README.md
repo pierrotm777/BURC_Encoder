@@ -108,7 +108,10 @@ In my case, the command is :
   * Set your terminal with 115200 bauds, 8 bits, no parity, 1 bit stop and CR or CRLF (see LIGNE.TERM).
   * Type ENTER key for see the module's version.
 1. Attiny85 (360° encoder):
-  * To do
+  A push button allows:
+ - calibrating the analog sensor (min and max): before powering the ATtiny85, press the Push button and hold it for  1 - 2 seconds.
+ - setting the I2C address: before powering the ATtiny85, press the Push button and hold it for more than 4 seconds.
+ Additionally, it can read an analogic input (0/5V)
 
 ## Settings usables
 The list of messages that can be transported in each RCUL instance is:  
