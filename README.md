@@ -102,14 +102,13 @@ In my case, the command is :
 - You will find [here](https://cults3d.com/fr/mod%C3%A8le-3d/jeu/burc-pad) an exemple of 3d files by **croky_b** witch accept all the BURC's boards.  
 
 ## Configure the BURC Encoder
-1. Pro Mini:  
-  - Connect a FTDI interface to the Arduino Pro Mini and your PC.  
-  - Use a terminal for send your commands.  
-  - Set your terminal with 115200 bauds, 8 bits, no parity, 1 bit stop and CR or CRLF (see LIGNE.TERM).  
-  - Type ENTER key for see the module's version.  
-
-1. Attiny85 (360° encoder):  
-  - To do  
+1. Pro Mini:
+  * Connect a FTDI interface to the Arduino Pro Mini and your PC.  
+  * Use a terminal for send your commands.  
+  * Set your terminal with 115200 bauds, 8 bits, no parity, 1 bit stop and CR or CRLF (see LIGNE.TERM).  
+  * Type ENTER key for see the module's version.  
+1. Attiny85 (360° encoder):
+  * To do  
 
 ## Settings usables
 The list of messages that can be transported in each RCUL instance is:  
