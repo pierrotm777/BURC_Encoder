@@ -107,7 +107,8 @@ In my case, the command is :
     * Use a terminal for send your commands.
     * Set your terminal with 115200 bauds, 8 bits, no parity, 1 bit stop and CR or CRLF (see LIGNE.TERM).
     * Type ENTER key for see the module's version.
-  * Attiny85 (360° encoder):
+
+  * Attiny85 (360° encoder):  
   A push button allows:
     * calibrating the analog sensor (min and max): before powering the ATtiny85, press the Push button and hold it for  1 - 2 seconds.
     * setting the I2C address: before powering the ATtiny85, press the Push button and hold it for more than 4 seconds.
