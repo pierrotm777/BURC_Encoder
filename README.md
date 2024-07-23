@@ -107,7 +107,7 @@ In my case, the command is :
 - Use a terminal for send your commands.  
 - Set your terminal with 115200 bauds, 8 bits, no parity, 1 bit stop and CR or CRLF (see LIGNE.TERM).  
 - Type ENTER key for see the module's version.  
-2 Attiny85 (360° encoder)  
+1 Attiny85 (360° encoder):  
 - To do  
 
 ## Settings usables
