@@ -100,8 +100,8 @@ In my case, the command is :
   * create a script file with this change.  
 
 ### Firmware upload for Attiny85
-  * use an USBAsp programmer or an [Arduino Uno board](https://www.instructables.com/Programming-ATtinys-Micro-Controllers-With-Arduino)
-  * define the fuses, low=F1, high=DF, extended=FF (16Mhz internal)
+  * use an USBAsp programmer and [ARDUDESS Gui](https://github.com/ZakKemble/AVRDUDESS/releases/) or an [Arduino Uno board](https://www.instructables.com/Programming-ATtinys-Micro-Controllers-With-Arduino)
+  * define the fuses (for 16Mhz internal mode), low=0xF1, high=0xDF, extended=0xFF
   * last firmware is the version [v2.2](https://github.com/pierrotm777/BURC_Encoder/blob/main/PROG/Windows/HallAna2A1335_V2_2.hex).  
 
 ### Exemple BURC build
