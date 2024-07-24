@@ -101,7 +101,7 @@ In my case, the command is :
 
 ### Firmware upload for Attiny85
   * use an USBAsp programmer or an [Arduino Uno board](https://www.instructables.com/Programming-ATtinys-Micro-Controllers-With-Arduino)
-  * define the fuses, low=F1, high=DF, extended=FF
+  * define the fuses, low=F1, high=DF, extended=FF (16Mhz internal)
   * last firmware is the version [v2.2](https://github.com/pierrotm777/BURC_Encoder/blob/main/PROG/Windows/HallAna2A1335_V2_2.hex).  
 
 ### Exemple BURC build
