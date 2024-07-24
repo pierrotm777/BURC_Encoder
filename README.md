@@ -85,10 +85,10 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   </tr>
   </table>  
   
-### Firmware upload
+### Firmware upload for Pro Mini
 - Windows:  
 The best method is to use [Xloader](https://github.com/pierrotm777/BURC_Encoder/blob/main/PROG/Windows/XLoader.zip).  
-The last firmware is the version [0.14](https://github.com/pierrotm777/BURC_Encoder/blob/main/PROG/Windows/BURC_CODER_V0_14.hex).  
+The last firmware is the version [v0.14](https://github.com/pierrotm777/BURC_Encoder/blob/main/PROG/Windows/BURC_CODER_V0_14.hex).  
 
 ![Xloader](https://github.com/pierrotm777/BURC_Encoder/blob/main/PROG/Windows/Xloader.jpg)  
 
@@ -98,6 +98,11 @@ In my case, the command is :
 ![](https://github.com/pierrotm777/BURC_Encoder/blob/main/PROG/Windows/ide_cmd.jpg)  
   * replace the hex file path C:\Users\pierrot\AppData\Local\Temp\arduino_build_879913/Blink.ino.hex by your firmware path.  
   * create a script file with this change.  
+
+### Firmware upload for Attiny85
+  * use an USBAsp programmer or an [Arduino Uno board](https://www.instructables.com/Programming-ATtinys-Micro-Controllers-With-Arduino)
+  * define the fuses, low=F1, high=DF, extended=FF
+  * last firmware is the version [v2.2](https://github.com/pierrotm777/BURC_Encoder/blob/main/PROG/Windows/HallAna2A1335_V2_2.hex).  
 
 ### Exemple BURC build
 - You will find [here](https://cults3d.com/fr/mod%C3%A8le-3d/jeu/burc-pad) an exemple of 3d files by **croky_b** witch accept all the BURC's boards.  
@@ -111,7 +116,7 @@ In my case, the command is :
 
   * Attiny85 (360° encoder) A push button allows:
     * calibrating the analog sensor (min and max): before powering the ATtiny85, press the Push button and hold it for  1 - 2 seconds.
-    * setting the I2C address: before powering the ATtiny85, press the Push button and hold it for more than 4 seconds.
+    * setting the I2C address: before powering the ATtiny85, press the Push button and hold it for more than 4 seconds.  
       Additionally, it can read an analogic input (0/5V)
 
 ## Settings usables
