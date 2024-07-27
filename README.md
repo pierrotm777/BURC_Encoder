@@ -29,8 +29,10 @@ All these modules behind
 ### Schematic  
 Encoder:  
 ![Encoder](https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/Angle%26Ana%26Sw.jpg)  
-16 switchs:  
+16 switchs by I2C bus:  
 ![16 Switchs](https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/MultiSwitch_Mcp23017_MiniSwitch.jpg)  
+16 switchs on Arduino:  
+![16 Switchs](https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/8_16-Simple_Encoder.png) 
 
 ### Boards  
 Two cards make up the BURC system.
