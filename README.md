@@ -70,8 +70,8 @@ The BURC Encoder is connected to the transmitter over a **CPPM** input or a **SB
   <td><img src="https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/8_16-Simple_Encoder_Top.jpg" border="0"/></td>
   </tr>
   </table>
-  If this board use switchs, you need to remove the resistor's LED on pin D13 (C10 signal).
-  ![16 Switchs](https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/R_To_Remove.jpg) 
+  If this board use switchs, you need to remove the resistor's LED on pin D13 (C10 signal).  
+  ![R to remove](https://github.com/pierrotm777/BURC_Encoder/blob/main/BURC_For_All_Transmitters/R_To_Remove.jpg) 
   
  - The Switchs board: 
   * 16 Switchs board (need one protportional channel) 
