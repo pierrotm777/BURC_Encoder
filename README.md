@@ -179,6 +179,15 @@ A simple solution for build a little 6 channels hanset WITH BURC features.
 Debug method:  
 To test an RCUL channel in CPPM, we loop pin8 back to pin9 and we do an **RX.MODE=RCUL4@CPPM4** and after an **RX.DBG=1** command.  
 
+## I2C Devices address
+<pre>
+PCF8574         <b>0x20 to 0x23</b>  
+MCP23017        <b>0x24 to 0x27</b>  
+PCF8574A        <b>0x38 to 0x3B</b> (very difficult to find)  
+PCF8575         <b>0x24 to 0x27</b>  
+PCF8575A        <b>0x3C to 0x3F</b> (very difficult to find)  
+ANGLE SENSOR    <b>0x0C to 0x0F</b>  
+</pre>
 
 Exemple of configuration:
 ```
